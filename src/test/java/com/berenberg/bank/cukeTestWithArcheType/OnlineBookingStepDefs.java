@@ -199,7 +199,7 @@ public class OnlineBookingStepDefs {
 		System.out.println("SourceAtribute::"+frame.getAttribute("src"));
 		List<WebElement> buttons = frame.findElements(By.xpath("/html/body/div"));
 		for(WebElement div: buttons) {
-			System.out.println("--------innerHTML of div-----------");
+			System.out.println("--------innerHTML of div---------");
 		System.out.println("title innerHTML(web bookings)::"+div.getAttribute("innerHTML"));
 		}
 		
