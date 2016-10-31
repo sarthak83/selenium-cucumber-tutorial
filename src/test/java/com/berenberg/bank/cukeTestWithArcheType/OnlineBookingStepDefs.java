@@ -127,7 +127,7 @@ public class OnlineBookingStepDefs {
 			
 	
 		}
-		System.out.println("--------------Day to be booked-----------------");
+		System.out.println("--------------Day to be booked----------------");
 		
 		//System.out.println(anchor.getTagName());
 		System.out.println(anchor.getAttribute("innerText"));
